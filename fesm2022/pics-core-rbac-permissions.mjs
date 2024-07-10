@@ -843,7 +843,7 @@ class PermissionsComponent {
             parentid: [null],
             applicationid: [this.environment ? this.environment['applicationid'] : ''],
             name: ['', Validators.required],
-            route: [null, Validators.required],
+            route: ['', Validators.required],
             order: [0],
             ismenu: [true],
             thumbnail: [''],
