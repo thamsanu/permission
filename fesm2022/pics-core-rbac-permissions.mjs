@@ -1010,7 +1010,7 @@ class PermissionsComponent {
         };
         this.formSubmit = true;
         if (this.showLinkPage) {
-            page.route = `/pages/dynamic-search/search/${page.route}`;
+            page.route = `/pages/${page.route}`;
         }
         if (this.pageForm.valid) {
             page.order = page.order ? Number(page.order) : 1;
