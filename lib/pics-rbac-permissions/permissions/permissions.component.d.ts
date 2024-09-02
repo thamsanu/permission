@@ -122,6 +122,8 @@ export declare class PermissionsComponent implements OnInit {
     validateImage(file: any): boolean;
     searchPermissionList(event: Event): void;
     onPageNameInput(event: KeyboardEvent, name: string): void;
+    customFilter(node: TreeNode, filter: string): boolean;
+    filterTree(event: any): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<PermissionsComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<PermissionsComponent, "permissions", never, {}, {}, never, never, false, never>;
 }
